@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+}
+.General{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(30, 160, 18);
+    position: relative;
+    margin-left: 30%;
+   
+}
+#top{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+     z-index: 4;
+}
+.xett{
+    width: 550px;
+    height: 550px;
+    top: 25px;
+    left: 25px;
+border: 2px white solid;
+background-color: rgb(30, 160, 18);
+ position: absolute;
+}
+.stadion{
+    width: 200px;
+    height: 90px;
+    top: 0px;
+    left: 30%;
+    transform: translate(-50% -50%);
+border: 2px white solid;
+background-color: rgb(30, 160, 18);
+ position: absolute;
+ border-top: 0px;
+
+}
+.stadion2{
+    width: 200px;
+    height: 90px;
+    bottom: 0px;
+    left: 30%;
+    transform: translate(-50% -50%);
+border: 2px white solid;
+background-color: rgb(30, 160, 18);
+ position: absolute;
+ border-bottom: 0px;
+}
+.orta{
+    width: 550px;
+    height: 4px;
+    background-color: white;
+    border-radius: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 2;
+}
+.daire{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:rgb(30, 160, 18); 
+    border: 2px white solid;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    transform: translate(-50% -50%);
+}
+.bst{
+width: 100px;
+height: 50px;
+background-color: rgb(30, 160, 18);
+border: 2px white solid;
+border-top: 0px;
+position: absolute;
+top: 0%;
+left: 25%;
+transform: translate(-50% -50%);
+}
+.bst2{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(30, 160, 18);
+border: 2px white solid;
+border-bottom: 0px;
+position: absolute;
+bottom: 0%;
+left: 25%;
+transform: translate(-50% -50%);
+}
+#seki{
+    width: 100px;
+    height: 20px;
+    background-color: crimson;
+border: 1px rgb(69, 20, 185) solid;
+position: absolute;
+bottom: -20px;
+left: 0px;
+}
